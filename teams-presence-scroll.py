@@ -167,9 +167,9 @@ fore = colours['black']
 text = ""
 
 
-# Detect HAT or PHAT layout and adapt accordingly
+# Detect HAT, PHAT or PHAT_VERTICAL layout and adapt accordingly
 # If yours isn't detected properly, then you may need
-# to change the following line to say HAT or PHAT
+# to change the following line to say unicorn.HAT/PHAT/PHAT_VERTICAL ***for waveshare rgb hat select PHAT_VERTICAL
 # instead of AUTO:
 unicorn.set_layout(unicorn.AUTO)
 geom = unicorn.get_shape()
