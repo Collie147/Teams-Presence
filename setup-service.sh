@@ -4,4 +4,5 @@ if [ "$(id -u)" != "0" ]; then
 	exit 1
 fi
 sudo cp teams-presence.service /etc/systemd/system/teams-presence.service
+sudo systemctl daemon-reload
 sudo systemctl enable teams-presence.service
