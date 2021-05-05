@@ -1,0 +1,14 @@
+[Unit]
+Description=Teams Presence Service
+After=network.target
+
+[Service]
+ExecStart=sudo /usr/bin/python3 -u /home/pi/Teams-Presence/teams-presence-scroll.py --nopulse
+WorkingDirectory=/home/pi/Teams-Presence
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
