@@ -698,7 +698,7 @@ if __name__ == '__main__':
 
     # Setup Unicorn light
     setColor(50, 50, 50, 1, '')
-    unicorn.set_layout(unicorn.AUTO)
+    #unicorn.set_layout(unicorn.AUTO)
     unicorn.brightness(0.5)
 
     # Get the width and height of the hardware
