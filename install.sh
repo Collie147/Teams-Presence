@@ -6,7 +6,7 @@ fi
 echo Updating APT
 sudo apt-get update
 echo Installing Python3 dev
-sudo apt-get install python3-pip python-dev
+sudo apt-get install python3-pip python-dev python3-pil
 echo Installing UNICORN pHAT library
 sudo pip3 install unicornhat
 echo Installing qrcode module
