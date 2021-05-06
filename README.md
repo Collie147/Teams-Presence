@@ -1,3 +1,50 @@
+This fork of https://github.com/maxi07/Teams-Presence adds text scrolling to the unicorn phat/waveshare RGB Phat. Essentially I've taken https://github.com/sconemad/unicorn-scroller and mashed it into the Teams-Presence work done by maxi07.  
+
+I've kept the readme much the same as the original library but added a couple of other bits below
+
+############# Additional stuff and Changes ###############
+
+
+Added teams-presence-scroll.py (for scrolling text)
+Made a couple of changes to the install.sh script
+Added a bash file to setup and enable the script as a service
+
+
+
+Instructions:
+
+clone or download the zip
+
+```git clone https://github.com/Collie147/Teams-Presence.git```
+
+go into the cloned/unzipped folder
+
+```cd /home/pi/Teams-Presence```
+
+run the installer (as sudo)
+
+```sudo ./install.sh```
+
+run the script (as sudo) 
+
+```sudo python3 teams-presence-scroll.py```
+
+confirm that the script works as it should (or make necessary changes)
+
+
+run the service installer (as sudo)
+
+```sudo setup-service.sh```
+
+reboot
+
+```sudo reboot```
+
+
+
+
+############## Original maxi07 Teams-Presence ##################
+
 # Teams Presence for Raspberry Pi
 [![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/maxi07/Teams-Presence)
