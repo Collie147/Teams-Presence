@@ -15,3 +15,5 @@ echo Installing gpiozero
 sudo pip3 install gpiozero
 echo Installing Microsoft Office authentication library
 sudo pip3 install msal
+wget https://www.wfonts.com/download/data/2016/05/03/minecraftia/minecraftia.zip
+unzip minecraftia.zip
